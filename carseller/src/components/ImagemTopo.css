@@ -1,0 +1,164 @@
+.hometopo {
+    position: relative;
+    width: 201.5vh;
+    height: 365.3px;
+    display: flex;
+    border-radius: 10px;   
+    transform: scale(1);
+}
+
+.hometopo figcaption{
+  position: absolute;
+  top: 45px;
+  right: 450px;
+  font-size: 50px;
+  color: white;
+  text-shadow: 0px 0px 5px black;
+}
+
+.hometopo label {
+    position: absolute;
+    top: 125px;
+    right: 600px;
+    font-size: 15px;
+    color: white;
+    text-shadow: 0px 0px 5px black;   
+}
+
+.hometopo h3{
+    position: absolute;
+    top: 205px;
+    right: 700px;
+    font-size: 15px;
+    color: white;
+    text-shadow: 0px 0px 5px black; 
+}
+
+.hometopo h1 {
+    position: absolute;
+    top: 160px;
+    right: 730px;
+    font-size: 15px;
+    color: white;
+    text-shadow: 0px 0px 5px black;  
+}
+
+.btn-home{
+    position: absolute;
+    top: 250px;
+    right: 665px;
+    background-color: midnightblue; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   }
+
+   .btn-home:hover{
+    background: turquoise;
+
+}
+
+.produtos{
+    position: absolute;
+    font-size: 30px;
+    top: 460px;
+    right: 715px;
+    color: white;
+}
+
+.underscor{
+    position: absolute;
+    font-size: 25px;
+    top: 480px;
+    right: 725px;
+    color: white;
+    font-weight: bold;
+}
+
+.produto-text{
+    position: absolute;
+    font-size: 15px;
+    top: 950px;
+    right: 620px;
+    color: white;
+
+}
+
+.btn-produto{
+    position: absolute;
+    font-size: 25px;
+    top: 990px;
+    right: 700px;
+    background-color: midnightblue; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   }
+
+   .btn-produto:hover{
+    background: turquoise;
+
+}
+.garagens{
+    position: absolute;
+    font-size: 30px;
+    top: 1100px;
+    right: 710px;
+    color: white;
+}
+
+.underscor-garag{
+    position: absolute;
+    font-size: 25px;
+    top: 1120px;
+    right: 720px;
+    color: white;
+    font-weight: bold;
+}
+
+.garagem-text{
+    position: absolute;
+    font-size: 15px;
+    top: 1550px;
+    right: 620px;
+    color: white;
+
+}
+
+.btn-garagem{
+    position: absolute;
+    font-size: 25px;
+    top: 1600px;
+    right: 695px;
+    background-color: midnightblue; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   }
+
+   .btn-produto:hover{
+    background: turquoise;
+
+}
+
+.rodape {
+    position: absolute;
+    top: 1720px;
+    width: 201.5vh;
+    height: 225px;
+    display: flex;
+    border-radius: 10px;   
+    transform: scale(1);
+}

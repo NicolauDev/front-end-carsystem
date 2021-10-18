@@ -1,0 +1,135 @@
+.form-inputs-Contato {
+    margin-bottom: 0.5rem;
+    width: 95%;
+    
+}
+
+.form-input-Contato {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 30px;
+    width: 100%;
+    border: none;
+  }
+
+  .form-input-Contato-mensagem {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 60px;
+    width: 100%;
+    border: none;
+  }
+
+  .form-Cadastro h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-container-Cadastro {
+    margin: 50px auto;
+    width: 350px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
+    position: absolute;
+    border-radius: 10px;
+    height: 350px;
+    display: grid;
+    right: 750px;
+  }
+
+  .form-input-btn-contato {
+    width: 95%;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 2px;
+    background: linear-gradient(
+      90deg,
+      rgb(39, 176, 255) 0%,
+      rgb(0, 232, 236) 100%
+    );
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+  }
+
+  .form-input-btn-contato:hover {
+    cursor: pointer;
+    background: linear-gradient(
+      90deg,
+      rgb(39, 143, 255) 0%,
+      rgb(12, 99, 250) 100%
+    );
+    transition: all 0.4s ease-out;
+  }
+
+  .Dados{
+    position: absolute;
+    font-size: 30px;
+    top: 485px;
+    right: 500px;
+    color: white;
+  }
+
+  .telefone{
+    position: absolute;
+    font-size: 25px;
+    top: 524px;
+    right: 410px;
+    color: white;
+  }
+
+  .email{
+    position: absolute;
+    font-size: 25px;
+    top: 560px;
+    right: 312px;
+    color: white;
+  }
+
+  .city{
+    position: absolute;
+    font-size: 25px;
+    top: 600px;
+    right: 395px;
+    color: white;
+  }
+
+  .redes{
+    text-align: left;
+    position: absolute;
+    font-size: 25px;
+    top: 690px;
+    right: 425px;
+    color: white;
+  }
+
+  .icon-facebook{
+    position: absolute;
+    top: 300px;
+    right: -950px;
+  }
+
+  .icon-instagram{
+    position: absolute;
+    top: 300px;
+    right: -955px;
+  }
+
+  .icon-twitter{
+    position: absolute;
+    top: 300px;
+    right: -960px;
+  }
