@@ -8,7 +8,7 @@ const useForm = (callback, validarInfoCadastro) => {
         senha:'',
         confirmSenha:'',
         cnpj:'',
-        ruaN:'',
+        rua:'',
         bairro:'',
         mensagem: ''
     });

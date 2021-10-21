@@ -1,23 +1,23 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import FormCadastro from './FormCadastro';
 import FormSuccess from "./FormSuccess";
 import './Form.css';
 
 const Form = () => {
-    const [isSubmitted,setIsSubmitted] = useState(false);
+    const [isSubmitted, setIsSubmitted] = useState(false);
 
-    function submitForm(){
+    function submitForm() {
         setIsSubmitted(true);
     }
     return (
         <>
             <div className='form-container'>
-                 {!isSubmitted ? (
-                <FormCadastro submitForm={submitForm}/> 
+                {!isSubmitted ? (
+                    <FormCadastro submitForm={submitForm} />
                 ) : (
-                <FormSuccess />
+                    <FormSuccess />
                 )}
-            </div>  
+            </div>
         </>
     );
 };

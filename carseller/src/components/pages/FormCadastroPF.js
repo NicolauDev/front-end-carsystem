@@ -1,0 +1,116 @@
+import React from "react";
+// import { useState } from "react";
+// import validarInfoCadastro from "./validarInfoCadastro";
+import './FormCadastroPF.css';
+
+const FormCadastroPF = () => {
+    // const { handleChange, values, handleSubmit, errors } = useForm(submitForm, validarInfoCadastro);
+    return (
+        <>
+            <div className='form-container'>
+                <div className='form-content-right'>
+                    <form className='form' >
+                        
+                        <h1>Pessoa Física</h1>
+                        <div className='form-inputs'>
+                            <label htmlFor='cpf'
+                                className='form-label'>
+                                CPF:
+                            </label>
+                            <input
+                                id='cpf'
+                                type='text'
+                                name='cpf'
+                                className='form-input'
+                                placeholder='CPF'
+                            />
+                        </div>
+                        <div className='form-inputs'>
+                            <label htmlFor='cep'
+                                className='form-label'>
+                                CEP:
+                            </label>
+                            <input
+                                id='cep'
+                                type='text'
+                                name='cep'
+                                className='form-input'
+                                placeholder='CEP'
+                            />
+                        </div>
+                        <div className='form-inputs'>
+                            <label htmlFor='cnpj'
+                                className='form-label'>
+                                Cidade:
+                            </label>
+                            <input
+                                id='cidade'
+                                type='text'
+                                name='cidade'
+                                className='form-input'
+                                placeholder='Cidade'
+                            />
+                        </div>
+                        <div className='form-inputs'>
+                            <label htmlFor='estado'
+                                className='form-label'>
+                                Estado:
+                            </label>
+                            <input
+                                id='estado'
+                                type='text'
+                                name='estado'
+                                className='form-input'
+                                placeholder='Estado'
+                            />
+                        </div>
+                        <div className='form-inputs'>
+                            <label htmlFor='rua'
+                                className='form-label'>
+                                Rua:
+                            </label>
+                            <input
+                                id='rua'
+                                type='text'
+                                name='rua'
+                                className='form-input'
+                                placeholder='Rua'
+                            />
+                        </div>
+                        <div className='form-inputs'>
+                            <label htmlFor='numero'
+                                className='form-label'>
+                                Número:
+                            </label>
+                            <input
+                                id='numero'
+                                type='text'
+                                name='numero'
+                                className='form-input'
+                                placeholder='Número'
+                            />
+                        </div>
+                        <div className='form-inputs'>
+                            <label htmlFor='bairro'
+                                className='form-label'>
+                                Bairro:
+                            </label>
+                            <input
+                                id='bairro'
+                                type='text'
+                                name='Bairro'
+                                className='form-input'
+                                placeholder='Bairro'
+                            />
+                        </div>
+                        <button className='form-input-btn' type='submit' >
+                            Cadastrar
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </>
+    );
+};
+
+export default FormCadastroPF;

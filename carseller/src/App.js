@@ -9,14 +9,14 @@ import rodape from './components/images/rodape.png';
 import './components/ImagemTopo.css';
 import contato from './components/pages/contato';
 import entrar from './components/pages/entrar';
-
-
-
-
+// import modalGaragem from './components/modalGaragem';
+import FormCadastroPJ from './components/FormCadastroPJ';
+import FormCadastroPF from './components/pages/FormCadastroPF';
 
 function App(){
   return(
     <>
+    
       <BrowserRouter>
         <Navbar />
           <hometopo className='hometopo'>
@@ -39,6 +39,8 @@ function App(){
           <Route path='/cadastrar' exact component={Form}></Route>
           <Route path='/contato' exact component={contato}></Route>
           <Route path='/entrar' exact component={entrar}></Route>
+          <Route path='/FormCadastroPJ' exact component={FormCadastroPJ}></Route>
+          <Route path='/FormCadastroPF' exact component={FormCadastroPF}></Route>
         </Switch>
       </BrowserRouter>
 

@@ -1,15 +1,14 @@
 import React from 'react'
 import { useState } from 'react';
 import "./modal.css"
-import modalGaragem from "./modalGaragem";
+import modalGaragem from './modalGaragem';
 
 
-function modal({closeModal}) {
-    const [] = useState(false)
+function Modal({ closeModal }) {
+    const [openModalG, setOpenModalG] = useState(false);
     return (
         <>
-        
-                <div className="modalBackground">
+            <div className="modalBackground">
                 <div className="modalContainer">
                     <div className="tittleCloseBtn">
                         <button onClick={() => closeModal(false)}> X </button>
@@ -18,18 +17,24 @@ function modal({closeModal}) {
                         <h1>Cadastro de usuario</h1>
                     </div>
                     <div className="body">
-                    <p>Você pretende vender algum carro?</p>
+                        <p>Você pretende vender algum carro?</p>
                     </div>
                     <div className="footer">
                         <button onClick={() => closeModal(false)} id="cancelBtn">Não</button>
-                        <button>Sim</button>
+                        <button
+                            onClick={() => {
+                                setOpenModalG(true)
+                            }}
+                        >
+                            Sim
+                        </button>
+                        
                     </div>
-                </div> 
-                <modalGaragem />
+                </div>
             </div>
-            
-            </>
-    );  
+
+        </>
+    );
 };
 
-export default modal
+export default Modal
