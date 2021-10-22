@@ -10,6 +10,7 @@ const FormCadastroPJ = () => {
             <div className='form-container'>
                 <div className='form-content-right'>
                     <form className='form' >
+                        
                         <h1>Garagem</h1>
                         <div className='form-inputs'>
                             <label htmlFor='nome'

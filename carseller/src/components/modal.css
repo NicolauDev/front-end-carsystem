@@ -64,5 +64,45 @@
   }
   
   #cancelBtn {
-    background-color: crimson;
+    background: linear-gradient(
+      90deg,
+      rgb(12, 57, 83) 0%,
+      rgb(2, 67, 68) 100%
+    );;
+  }
+
+  .btn-pessoaf{
+    text-decoration: none;
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background: linear-gradient(
+      90deg,
+      rgb(12, 57, 83) 0%,
+      rgb(2, 67, 68) 100%
+    );;
+    color: white;
+    border-radius: 8px;
+    padding: .5rem;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .btn-g{
+    text-decoration: none;
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background: linear-gradient(
+      90deg,
+      rgb(12, 57, 83) 0%,
+      rgb(2, 67, 68) 100%
+    );;
+    color: white;
+    border-radius: 8px;
+    padding: .5rem 1.5rem;
+    font-size: 20px;
+    cursor: pointer;
   }

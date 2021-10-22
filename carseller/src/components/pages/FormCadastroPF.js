@@ -9,7 +9,7 @@ const FormCadastroPF = () => {
         <>
             <div className='form-container'>
                 <div className='form-content-right'>
-                    <form className='form' >
+                    <form className='form'>
                         
                         <h1>Pessoa Física</h1>
                         <div className='form-inputs'>
